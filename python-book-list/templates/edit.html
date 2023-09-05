@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Book</title>
+</head>
+<body>
+    <h2>Edit Book</h2>
+    <form method="post" action="">
+        <input type="hidden" name="id" value="{{ book[0] }}">
+        <label>Title: <input type="text" name="title" value="{{ book[1] }}"></label>
+        <label>Author: <input type="text" name="author" value="{{ book[2] }}"></label>
+        <button type="submit">Update Book</button>
+    </form>
+</body>
+</html>
